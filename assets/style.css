@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  
+  
+  
+}
+
+
+
+
+
+
+ 
+
+#resize{
+  height: 300%;
+  width: 300%;
+
+
+}
+
+
+#spcbtw{justify-content: space-between;}
+
+
+li{margin-right: 5px;}
+
+
+.fine{ justify-content: end;}
+
+
+.min-{min-width: 100%;}
+
+
+.display-flex{display: flex;}
+
+
+.p-relative{position: relative;}
+
+
+.p-absolute1{
+  position: absolute;
+  left:91.5%;
+  margin-top: 10px;
+  z-index: 35;
+
+}
+
+
+.p-absolute2{
+  position: absolute;
+  left: 97.5%;
+  margin-top: 10px;
+  z-index: 35;
+
+}
+
+
+.just-end{justify-content: end;}
+
+
+
+img{
+  max-width: 100%;
+ 
+
+  ;
+}
+
+
+.pincopallo-user
+
+{
+  margin-right:4px ;
+  margin-bottom:15px;
+  display: inline-block;
+  width:260px;
+  height:150px;
+}
+
+
+
+
+
+.nav-box{
+  
+  border-radius: 3px;
+  background-color: #4a4a4a;
+  padding: 0.5vh 0.5vh ;
+
+}
+
+
+.main-box{
+  position: absolute;
+  top: 78%;
+  
+  background-color: rgba(100, 113, 127, 0.5);
+  padding: 5px 5px;
+
+
+
+  
+
+
+
+}
+
+
+main{
+  text-align: center;
+  background-color: black;
+  
+  padding: 80px 80px 10px 80px;
+  height: calc(100vh - 100px)
+
+  overflow: auto;
+
+
+
+}
+
+
+
+footer{
+  background-color: aqua;
+  height: 100px;
+
+}
+
+
+
+.debug {background-color:blueviolet;}
+
