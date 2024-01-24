@@ -1,99 +1,85 @@
 * {
+
   box-sizing: border-box;
-  margin: 0 ;
+  margin: 0;
   padding: 0;
-  color: white;
   text-decoration: none;
   list-style: none;
+  color: white;
+
+}
+
+
+img{max-width: 100%;}
+
+
+#chevron{font-size: 1rem;}
+
+
+#green{color:lightgreen}
+
+
+#topbox{
+  right: 55px;
+}
+
+
+li{
+  text-align: center;
+  margin-right: 5px;
+}
+
+.flexing{
+
+  display: flex;
   
+
+}
+
+
+header{
+display: flex;
+justify-content: end;
+position: fixed;
+width: 100%;
+padding-right: 20px;
+padding-top: 5px;
+
+
+}
+
+
+
+.headerbox{
   
-  
-}
-
-
-
-
-
-
- 
-
-#resize{
-  height: 300%;
-  width: 300%;
-
-
-}
-
-
-#spcbtw{justify-content: space-between;}
-
-
-li{margin-right: 5px;}
-
-
-.fine{ justify-content: end;}
-
-
-.min-{min-width: 100%;}
-
-
-.display-flex{display: flex;}
-
-
-.p-relative{position: relative;}
-
-
-.p-absolute1{
-  position: absolute;
-  left:91.5%;
-  margin-top: 10px;
-  z-index: 35;
-
-}
-
-
-.p-absolute2{
-  position: absolute;
-  left: 97.5%;
-  margin-top: 10px;
-  z-index: 35;
-
-}
-
-
-.just-end{justify-content: end;}
-
-
-
-img{
-  max-width: 100%;
- 
-
-  ;
-}
-
-
-.pincopallo-user
-
-{
-  margin-right:4px ;
-  margin-bottom:15px;
   display: inline-block;
-  width:260px;
-  height:150px;
-}
-
-
-
-
-
-.nav-box{
+  background-color: darkgrey;
+  margin-right: 10px;
   
-  border-radius: 3px;
-  background-color: #4a4a4a;
-  padding: 0.5vh 0.5vh ;
+  border-radius: 4px;
+  padding: 5px;
+  z-index: 356;
+  position: absolute;
+  position: fixed;
+  z-index: 345;
 
 }
+
+
+
+main{
+  
+  text-align: center;
+  background-color: black;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  padding: 80px 80px 10px 80px ;
+
+
+
+}
+
+
 
 
 .main-box{
@@ -111,29 +97,51 @@ img{
 
 }
 
+.pincopallo-user
 
-main{
-  text-align: center;
-  background-color: black;
+{
+  position: relative;
   
-  padding: 80px 80px 10px 80px;
-  height: calc(100vh - 100px)
-
-  overflow: auto;
-
-
-
+  margin-bottom:15px;
+  display: inline-block;
+  width:260px;
+  height:150px;
+  
+  margin-right: 4px;
+  margin-bottom:12px
 }
-
 
 
 footer{
-  background-color: aqua;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
+  background-color: darkgray;
+  padding-left: 10px;
+
 
 }
 
+.final-box{
+
+  text-align: center;
+  line-height: 100px;
+  color: red;
+  background-color: gray;
+
+  display: inline-block;
+  height: 100px;
+  width: 150px;
 
 
-.debug {background-color:blueviolet;}
 
+}
+
+ul > li > a {
+
+  font-size: 2rem;
+
+
+}
