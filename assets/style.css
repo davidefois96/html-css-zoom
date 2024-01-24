@@ -44,6 +44,7 @@ position: fixed;
 width: 100%;
 padding-right: 20px;
 padding-top: 5px;
+z-index: 345;
 
 
 }
@@ -60,8 +61,8 @@ padding-top: 5px;
   padding: 5px;
   z-index: 356;
   position: absolute;
-  position: fixed;
-  z-index: 345;
+  
+ 
 
 }
 
