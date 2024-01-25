@@ -1,3 +1,6 @@
+/* classi principali */
+
+
 * {
 
   box-sizing: border-box;
@@ -12,11 +15,16 @@
 
 img{width: 100%;}
 
+.flexing{display: flex;}
 
-
+li{
+  text-align: center;
+  margin-right: 8px;
+}
 
 i:hover{color: darkgreen;}
 
+/* id */
 
 #chevron{font-size: 1rem;}
 
@@ -26,19 +34,7 @@ i:hover{color: darkgreen;}
 
 #red{color:#fb0310}
 
-
-#topbox{
-  right: 55px;
-}
-
-
-li{
-  text-align: center;
-  margin-right: 8px;
-}
-
-.flexing{display: flex;}
-
+/* classi header */
 
 header{
   display: flex;
@@ -54,8 +50,7 @@ header{
 }
 
 
-
-.headerbox{
+header > div.headerbox{
   
   display: inline-block;
   background-color: darkgrey;
@@ -68,7 +63,7 @@ header{
  
 }
 
-
+/* classi main */
 
 main{
   
@@ -88,9 +83,7 @@ main{
 
 }
 
-.pincopallo-user
-
-{
+span.pincopallo-user{
   position: relative;
   margin-bottom:15px;
   display: inline-block;
@@ -100,6 +93,7 @@ main{
   margin-bottom:12px
 }
 
+/* classi footer */
 
 footer{
 
@@ -112,7 +106,7 @@ footer{
 
 }
 
-.final-box{
+footer > div.final-box{
 
   text-align: center;
   line-height: 100px;
